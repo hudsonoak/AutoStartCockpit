@@ -47,9 +47,9 @@ time.sleep(10)
 
 # Fazer login
 pyautogui.doubleClick(833, 381)         # Substitua pelas coordenadas do campo de usuário
-pyautogui.typewrite('mestre')           # Substitua pelo nome de usuário
+pyautogui.typewrite('user')           # Substitua pelo nome de usuário
 pyautogui.press('tab')
-pyautogui.typewrite('ML9pjzlP@')        # Substitua pela senha
+pyautogui.typewrite('password')        # Substitua pela senha
 pyautogui.press('tab')
 pyautogui.press('C')                    # Substitua por H se for ambiente de Homologação | C para CorporeRM (Produção)
 pyautogui.press('tab')

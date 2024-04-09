@@ -92,7 +92,7 @@ def login_to_system():
         # Preencher o campo de usuário
         if user_field_position:
             pyautogui.click(user_field_position)
-            pyautogui.typewrite('mestre')               # Defina o Usuário à ser utilizado
+            pyautogui.typewrite('user')               # Defina o Usuário à ser utilizado
 
     if 'Insira sua senha' in extracted_text:
         # Localizar o campo de senha
@@ -101,7 +101,7 @@ def login_to_system():
         # Preencher o campo de senha
         if password_field_position:
             pyautogui.click(password_field_position)
-            pyautogui.typewrite('ML9pjzlP@')            # Defina a senha do usuário
+            pyautogui.typewrite('password')            # Defina a senha do usuário
 
     if 'Alias' in extracted_text:
         # Localizar o campo de Alias
