@@ -1,7 +1,7 @@
 # AutoStartCockpit
 
 AutoStartCockpit é uma automação básica para facilitar o início dos containers dentro do Cockpit do sistema TOTVS RM, que foi feito para ser iniciado manualmente apenas.
-Este script utiliza o método de coordenadas pois o sistema RM possui vaiados problemas/bugs nas telas que causam problemas de detecção caso utilizássemos OCR.
+Este script utiliza o método de coordenadas pois o sistema RM possui variados problemas/bugs nas telas que causam problemas de detecção caso utilizássemos OCR.
 
 Foi realizado duas versões de arquivos utilizando o método de OCR, porém está inacabado.
 
