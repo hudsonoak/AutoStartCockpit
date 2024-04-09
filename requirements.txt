@@ -1,0 +1,5 @@
+pyinstaller
+pillow
+pyautogui
+pyscreeze
+alive_progress

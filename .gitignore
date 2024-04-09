@@ -1,0 +1,11 @@
+# Diretórios
+__pycache__/
+build/
+dist/
+
+# Binários
+*.exe
+*.spec
+*BKP.py
+*dev.py
+*prd.py

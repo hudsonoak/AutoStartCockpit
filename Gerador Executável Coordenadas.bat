@@ -1,0 +1,1 @@
+pyinstaller --onefile exibir_coordenadas.py
